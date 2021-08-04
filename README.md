@@ -4,7 +4,7 @@
 
 #### 快速开始
 ```python
-from django_mlogger.mloggger import MLogger
+from django_mlogger.mlogger import MLogger
 
 m_logger = MLogger(__name__, "test")
 
