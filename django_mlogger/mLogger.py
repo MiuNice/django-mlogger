@@ -38,7 +38,7 @@ class MLogger:
 
         __when = ("S", "M", "H", "D", "W", "midnight")
         __settings_when = getattr(settings, "MLOGGER_WHEN", "midnight")
-        if getattr(settings, "MLOGGER_WHEN", "midnight") in __when:
+        if __settings_when in __when:
             self.when = __settings_when
         else:
             self.when = "midnight"
