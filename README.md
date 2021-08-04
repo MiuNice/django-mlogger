@@ -1,6 +1,6 @@
 ### Django MLogger
 
-基于Django的日志管理系统，通过配置Settings使用。
+基于Django（3.1及以上）的日志管理系统，通过配置Settings使用。
 
 #### 快速开始
 ```python
